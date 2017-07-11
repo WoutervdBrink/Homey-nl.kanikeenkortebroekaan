@@ -6,5 +6,9 @@ not you should wear shorts today, and a screensaver, which turns the Homey green
 or red, depending on if the weather does or doesn't allow shorts, respectively.
 
 ## Changelog
+v1.0.1
+ * Added flow conditional
+ * Changed icon
+
 v1.0.0
  * Initial release

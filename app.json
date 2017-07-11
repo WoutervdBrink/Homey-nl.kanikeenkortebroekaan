@@ -22,7 +22,7 @@
         "large": "/assets/images/large.png",
         "small": "/assets/images/small.png"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "compatibility": "1.x >=1.5.0",
     "author": {
         "name": "Wouter van den Brink",
