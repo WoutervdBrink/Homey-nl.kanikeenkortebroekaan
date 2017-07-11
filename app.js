@@ -131,6 +131,34 @@ class Kanikeenkortebroekaan extends Homey.App {
 				.catch((err) => {
 					this.log(err);
 				});
+
+		this.canWearCondition = new Homey.FlowCardCondition('can_wear_shorts');
+
+		this.canWearCondition
+			.register()
+			.on('run', (args, state, callback) => {
+				this.queryWebsite()
+					.then((result) => {
+						callback(null, result);
+					})
+					.catch((err) => {
+						callback(null, false);
+					});
+			});
+
+		this.cannotWearCondtion = new Homey.FlowCardCondition('cannot_wear_shorts');
+
+		this.cannotWearCondtion
+			.register()
+			.on('run', (args, state, callback) => {
+				this.queryWebsite()
+					.then((result) => {
+						callback(null, !result);
+					})
+					.catch((err) => {
+						callback(null, false);
+					})
+			});
 	}
 }
 

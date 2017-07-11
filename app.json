@@ -67,6 +67,24 @@
         "en": ["Can I wear shorts today?"],
         "nl": ["Kan ik een korte broek aan?"]
     },
+    "flow": {
+        "conditions": [
+            {
+                "id": "can_wear_shorts",
+                "title": {
+                    "nl": "Je kunt een korte broek aan",
+                    "en": "You can wear shorts"
+                }
+            },
+            {
+                "id": "cannot_wear_shorts",
+                "title": {
+                    "nl": "Je kunt geen korte broek aan",
+                    "en": "You cannot wear shorts"
+                }
+            }
+        ]
+    },
     "permissions": [
         "homey:manager:ledring",
         "homey:manager:speech-input",
