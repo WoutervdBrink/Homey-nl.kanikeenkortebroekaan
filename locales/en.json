@@ -1,0 +1,7 @@
+{
+    "result": {
+        "yes": "Yes, you can wear shorts today.",
+        "no": "No, you cannot wear shorts today.",
+        "error": "Unfortunately, you have to find out for yourself, as I could not connect with the website."
+    }
+}

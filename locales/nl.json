@@ -1,0 +1,7 @@
+{
+    "result": {
+        "yes": "Ja, je kunt vandaag een korte broek aan.",
+        "no": "Nee, je kunt vandaag geen korte broek aan.",
+        "error": "Helaas zul je dat zelf moeten uitzoeken, want ik kan de website niet bereiken."
+    }
+}
